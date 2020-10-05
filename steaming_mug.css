@@ -1,0 +1,97 @@
+.about_steaming_mug{
+    display: flex;
+    width: 70%;
+    padding: 8% 5% 7% 5%;
+    margin: auto !important;
+    justify-content: space-between !important;
+    align-items: flex-start;
+    
+}
+.text2{
+    display: flex;
+    width: fit-content !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.steaming_mug_heading{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #030047;
+    text-align: left;
+    line-height: 5rem;
+    /* padding-top: 2%; */
+}
+/* .steaming_mug_heading p{
+    border-bottom: 0.5rem #5F5FFF solid;
+} */
+
+.steaming_mug_heading:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 15%; /* Change this to whatever width you want. */
+    padding-top: 15px; /* This creates some space between the element and the border. */
+    border-bottom: 0.5rem #5F5FFF solid;
+}
+.steaming_mug_content{
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-align: left;
+    line-height: 2rem;
+    width: 83%;
+}
+.steaming_mug_content p{
+    width: 100%; /*   */
+}
+.about_steaming_mug img{
+    padding-top: 5%;
+}
+
+
+.grid2{
+    height: 100%;
+    width: 70%; 
+    margin: auto!important; 
+    /* border:1px solid grey; */
+    display: grid; 
+    /* color: white; */
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding: 0 3%;
+}
+.steaming_mug1{
+    grid-column: 1/-1;
+    
+}
+.steaming_mug2{
+    grid-column: 1/-1;
+}
+
+.footer{
+    display: flex;
+    height: 225px; 
+    padding: 5% 5%;
+    margin: auto !important;
+    justify-content: center !important; 
+    align-items: center;
+}
+.cpyright{
+    display: flex;
+    opacity: 100%;
+    font-family: 'Open sans',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    color: #BDBDBD;
+    padding-right: 50%;
+}
+.iconimages{
+    display: flex;
+    align-items: flex-end;
+}

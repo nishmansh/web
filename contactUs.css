@@ -1,0 +1,166 @@
+/* main division */
+.contact_us{
+    width: 70%;
+    display: flex;
+    margin: auto !important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding-top: 10%;    
+}
+
+/* illustration */
+.phone{
+    /* padding: 9.5% 0 0 5%;  */
+    width: 35%;
+}
+
+/* content sub division */
+.contact_us_content{
+    display: flex;
+    width: fit-content !important;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    /* padding: 0 5% 0 5%; */
+}
+
+/* have you got project */
+.contact_heading{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #030047;
+    text-align: right;
+    line-height: 5rem;
+}
+/* get in touch */
+.contact_content{
+    width: 85%;
+    font-size: 1.2rem;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: right;
+    line-height: 1.8rem;
+    padding-top: 3%;
+    /* padding: 0 3% 0 0;  */
+}
+/* mail id division */
+.email{
+    /* padding: 0 3% 0 0;  */
+    padding-top: 10%;
+    display: flex;
+    width: fit-content !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;    
+}
+.email img{
+    width: 10%;
+    /* padding-left: 10%;  */
+}
+.email a{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 720;
+    color: #030047;
+    letter-spacing: 0.1px;
+    /* padding-left: 2%; */
+}
+
+.social-media{
+    padding-top: 7%;
+
+    display: flex;
+    /* padding: 5% 0 5% 20%; */
+    /* margin: auto !important; */
+    justify-content: flex-end !important; 
+    align-items: center;
+ }
+
+.followus{
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #030047;
+    letter-spacing: 3.8px;
+}
+
+
+/* ellipse */
+.element6{
+    position: absolute;
+    transform: translate(-375%,-52.5%);
+}
+
+.footer{
+    display: flex;
+    height: 30vh; 
+    padding: 5% 5%;
+    margin: auto !important;
+    justify-content: center !important; 
+    align-items: center;
+}
+.cpyright{
+    display: flex;
+    opacity: 100%;
+    font-family: 'Open sans',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    color: #BDBDBD;
+    padding-right: 50%;
+}
+.iconimages{
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1536px){
+    .element6{
+        transform: translate(-375%,-50%);
+    }
+}
+@media screen and (max-width: 1440px){
+    .element6{
+        transform: translate(-375%,-100%);
+    }
+}
+@media screen and (max-width: 1280px){
+    .element6{
+        transform: translate(-400%,-100%);
+    }
+}
+@media screen and (max-width: 1024px){
+    .element6{
+        transform: translate(-400%,-100%);
+    }
+    .contact_heading{
+        font-size: 3.5rem;
+    }
+    .contact_content{
+        font-size: 1rem;
+    }
+    .email a{
+        font-size: 1.3rem;
+    }
+    .followus{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .contact_us{
+        flex-direction: column;
+    }
+    .phone{
+        display: flex;
+        width: fit-content !important;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,112 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 70%;
+    margin: auto;
+    height: 14vh;
+}
+
+.logo-container, .item, .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+}
+.logo{
+    max-width: 47px; 
+}
+.menu{
+    display:flex;
+    justify-content :flex-end;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    width: fit-content;
+}
+.item{
+    align-items: flex-end;
+}
+.contact{
+    background-color: #5F5FFF;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px 35px;
+    color: white !important;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3.2px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.project{
+    padding: 20px 35px;
+    color: #030047;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+}
+
+/* @media screen and (min-width: 400px) and (max-width: 1440px){
+    .nav {
+        height: 20vh;
+    }
+    .logo{
+        max-width: 40px; 
+    }
+    .contact, .project{
+        padding: 20px 35px;
+        font-size: 1rem;
+        letter-spacing: 3.2px;
+    }
+} */
+
+@media screen and (max-width: 1440px){
+    .nav{
+        height: 130px!important;
+    }
+}
+@media screen and (max-width: 1024px){
+    .nav{
+        height: 130px!important;
+    }
+    .logo{
+        max-width: 35px; 
+    }
+    .contact, .project{
+        padding: 15px 30px;
+        font-size: 0.8rem;
+        letter-spacing: 3.2px;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav{
+        height: 130px!important;
+    }
+    .logo{
+        max-width: 35px; 
+    }
+    .contact, .project{
+        padding: 10px 25px;
+        font-size: 0.7rem;
+        letter-spacing: 3.2px;
+    }
+}
+@media screen and (max-width: 550px){
+    .nav{
+        height: 130px!important;    
+    }
+    .logo{
+        max-width: 30px; 
+    }
+    .contact, .project{
+        padding: 10px 20px;
+        font-size: 0.7rem;
+        letter-spacing: 3.2px;
+    }
+}
+
